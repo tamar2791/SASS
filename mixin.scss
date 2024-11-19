@@ -1,0 +1,6 @@
+//mixin
+@mixin fontStyle($font) {
+    font-size: 18px;
+    font-family: $font;
+    color: aqua;
+}

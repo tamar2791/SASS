@@ -1,0 +1,23 @@
+@each $name,$color in ((success, green), (danger, red), (info, yellow), (warning, orange)) {
+    .text-#{$name} {
+        color: $color;
+        background-color: lighten($color, 50%);
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+
+        @if $name==success or $name==danger {
+            cursor: pointer;
+        }
+
+        @else if $name==info {
+            cursor: help;
+        }
+    }
+}
+
+@for $i from 1 through 12 {
+    .column-#{$i} {
+        width: $i/12*100%;
+    }
+}

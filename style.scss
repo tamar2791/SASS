@@ -1,20 +1,19 @@
 /*# @ Tami Zaltz*/
 
-//mixin
-@mixin fontStyle($font){
-    font-size: 18px;
-    font-family: $font;
-    color: aqua;
-}
-li{
-    a{
+
+
+li {
+    a {
         color: gray;
         text-decoration: none;
     }
-    button{
+
+    button {
         border-radius: 5x;
-        &:hover{
+
+        &:hover {
             opacity: 0.7;
         }
     }
 }
+
