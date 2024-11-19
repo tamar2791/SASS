@@ -1,0 +1,11 @@
+/*# @ Tami Zaltz*/
+li a {
+  color: gray;
+  text-decoration: none;
+}
+li button {
+  border-radius: 5x;
+}
+li button:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
